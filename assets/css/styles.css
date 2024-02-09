@@ -1,4 +1,67 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.rectangle
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 60px;
+    position: relative;
+}
+.myname
+{
+    
+    font-size: 80px;
+    padding-top: 50px;
+    opacity: 80%;
+    
+    
+}
+.prof
+{
+font-size: 40px;
+font-family: fantasy;
+opacity:50% ;
+}
+.image
+{
+    object-position: 50%;
+    
+    margin-top: 50px;
+    
+ 
+}
+.img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 180px;
+    border: #BBAB8C 5px solid;
+    position: absolute;
+    top: 180px;
+    left: 1100px;
+  
+    object-fit: cover;
+}
+.contactsdetails
+{
+    font-size: 20px;
+    font-style: normal;
+    padding: 100px;
+    padding-left: 50px;
+    
+}
+.contact{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+
+
